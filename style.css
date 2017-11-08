@@ -1,0 +1,96 @@
+body {
+  font-family: Arial;
+  color: black;
+  background-image: url("images/background.jpg");
+  background-size: 100px 120px;
+}
+
+h1 {
+  font-family: Times, serif;
+  font-size: 30px;
+  color: #B72C23;
+}
+
+.container h2 {
+  font-family: 'Montserrat', serif;
+  font-size: 25px;
+  font-weight: normal;
+  color: #7D7D7D;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+a {
+  color: #7D7D7D;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #B72C23;
+  text-decoration: none;
+}
+
+ul > li {
+  line-height: 25px;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+  font-size: 25px;
+}
+
+#profile_picture {
+  width :50%;
+  height : auto;
+  border-radius: 75%;
+}
+
+.container{
+    width: 700px;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.card{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.movie_picture {
+  width: 80%;
+  height: auto;
+}
+
+.movie_title {
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+.center {
+  text-align: center;
+}
+
+.btn-red{
+  background-color: #DD5555;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+.btn-red:hover{
+  background-color: #C61414;
+  color: white;
+}
